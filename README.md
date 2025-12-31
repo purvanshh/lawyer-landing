@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Kane Williams Law - Lawyer Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, professional lawyer portfolio website built with React. Features a dark theme with gold accents, smooth animations, and a fully responsive design.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19.2-blue)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-In the project directory, you can run:
+## 🎯 Features
 
-### `npm start`
+- **Modern Design** - Dark theme with gold accents and professional typography
+- **Responsive** - Fully responsive across mobile, tablet, and desktop
+- **Smooth Animations** - Powered by Framer Motion for engaging user experience
+- **Component-Based** - Modular React components for easy customization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Sections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Section | Description |
+|---------|-------------|
+| **Hero** | Large name with gradient effect, lawyer portrait, and CTA |
+| **Services** | Service tags with animated hover effects |
+| **Corporate Support** | Statistics (120+, 18+, 6000+) with descriptions |
+| **Features** | 4 feature cards with icons |
+| **Expertise** | Gold gradient card highlighting expertise |
+| **Testimonials** | Client testimonials carousel |
+| **FAQ** | Accordion-style frequently asked questions |
+| **Blog** | 3 blog post cards with images |
+| **Footer** | Contact info, links, and social icons |
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React 19** - UI framework
+- **Framer Motion** - Animations
+- **React Icons** - Icon library
+- **CSS Modules** - Scoped styling
+- **Google Fonts** - Playfair Display & Inter
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/lawyer-landing.git
 
-### `npm run eject`
+# Navigate to project directory
+cd lawyer-landing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start development server
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Build for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Color Palette
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Primary Dark | `#0A0A0A` | Backgrounds |
+| Accent Gold | `#D4AF37` | Highlights, CTAs |
+| White | `#FFFFFF` | Text, headings |
+| Gray | `#9CA3AF` | Secondary text |
 
-### Code Splitting
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+├── components/
+│   ├── Header/
+│   ├── Hero/
+│   ├── Services/
+│   ├── CorporateSupport/
+│   ├── Features/
+│   ├── Expertise/
+│   ├── Testimonials/
+│   ├── FAQ/
+│   ├── Blog/
+│   └── Footer/
+├── assets/
+├── App.js
+├── App.css
+└── index.css
+```
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is open source and available under the [MIT License](LICENSE).
 
-### Making a Progressive Web App
+## 👤 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ for Kane Williams Law
