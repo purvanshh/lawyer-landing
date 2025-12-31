@@ -1,0 +1,90 @@
+.expertise-section {
+    padding: var(--spacing-4xl) 0;
+    background-color: var(--color-primary-dark);
+}
+
+.expertise-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-xl);
+}
+
+.expertise-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-2xl);
+    background: linear-gradient(135deg, #D4AF37 0%, #B8973A 50%, #C9A540 100%);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-2xl);
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .expertise-card {
+        grid-template-columns: 1.2fr 1fr;
+        padding: var(--spacing-3xl);
+        align-items: center;
+    }
+}
+
+.expertise-content {
+    color: var(--color-primary-dark);
+}
+
+.expertise-title {
+    font-family: var(--font-primary);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: var(--weight-bold);
+    line-height: 1.2;
+    letter-spacing: var(--tracking-tight);
+    margin-bottom: var(--spacing-lg);
+}
+
+.expertise-description {
+    font-family: var(--font-secondary);
+    font-size: var(--text-base);
+    font-weight: var(--weight-regular);
+    line-height: var(--leading-loose);
+    letter-spacing: 0.01em;
+    opacity: 0.9;
+    margin-bottom: var(--spacing-xl);
+}
+
+.expertise-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    font-family: var(--font-secondary);
+    font-size: var(--text-base);
+    font-weight: var(--weight-medium);
+    letter-spacing: 0.01em;
+}
+
+.highlight-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    font-size: var(--text-sm);
+}
+
+.expertise-image {
+    position: relative;
+}
+
+.scales-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-xl);
+    filter: sepia(20%);
+}
